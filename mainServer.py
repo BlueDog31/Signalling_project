@@ -2,7 +2,7 @@ import socket
 import numpy
 
 serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-serverSocket.bind("https://github.com/BlueDog31/Signalling_project.git")
+serverSocket.bind("https://github.com/BlueDog31/Signalling_project/blob/main/mainServer.py")
 serverSocket.listen(1)
 clientSocket, clientAdress = serverSocket.accept()
 print(Definition: f"Tilkoblet fra: {client_address}")
